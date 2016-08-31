@@ -1,10 +1,10 @@
 package ar.fiuba.tdd.template;
 
-/* ItemQueue is a Queue that cant keep T items */
+/* ItemQueue is a Queue that can keep T items */
 class ItemQueue<T> implements Queue<T> {
     private LinkedList<T> linkedList;
 
-    ItemQueue() {
+    public ItemQueue() {
         linkedList = new LinkedList<>();
     }
 
@@ -17,7 +17,7 @@ class ItemQueue<T> implements Queue<T> {
     }
 
     public void add(T item) {
-        linkedList.addFist(item);
+        linkedList.addFirst(item);
     }
 
     public T top() throws AssertionError {

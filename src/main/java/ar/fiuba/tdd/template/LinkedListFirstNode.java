@@ -1,6 +1,6 @@
 package ar.fiuba.tdd.template;
 
-/* This class represent the First Node of a Linked List. It has reference to the NextNode, but no has items */
+/* This class represent the First Node of a Linked List. It has a reference to the Next Node, but hasn't got items */
 class LinkedListFirstNode<T> implements LinkedListNode {
     private LinkedListNode<T> nextNode = new LinkedListNullNode<>();
 

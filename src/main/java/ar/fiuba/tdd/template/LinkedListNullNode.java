@@ -1,6 +1,6 @@
 package ar.fiuba.tdd.template;
 
-/* This class represent a empty Node, has neither items nor next Nodes  */
+/* This class represent an empty Node, has neither items nor next Nodes  */
 class LinkedListNullNode<T> implements LinkedListNode<T> {
 
     @Override

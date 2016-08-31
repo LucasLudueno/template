@@ -1,6 +1,6 @@
 package ar.fiuba.tdd.template;
 
-/* LinkedList that can keep T items */
+/* LinkedList is a Linked List that can keep T items */
 class LinkedList<T> {
     private LinkedListFirstNode<T> first;
 
@@ -13,7 +13,7 @@ class LinkedList<T> {
     }
 
     // Add item in the first position.
-    void addFist(T item) {
+    void addFirst(T item) {
         first.addLastNode(new LinkedListItemNode<>(item), null);
     }
 
@@ -22,7 +22,7 @@ class LinkedList<T> {
         return first.getItem();
     }
 
-    // Remove the first item.
+    // Remove first item.
     void removeFirst() throws AssertionError {
         first.removeFirst();
     }

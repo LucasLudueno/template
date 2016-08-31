@@ -10,10 +10,10 @@ interface Queue<T> {
     // Add item in first position of Queue.
     void add(T item);
 
-    // Return first item. If Queue is empty throw AssertionError.
+    // Return first item. If Queue is empty throws AssertionError.
     T top();
 
-    // Remove first item. If Queue is empty throw AssertionError.
+    // Remove first item. If Queue is empty throws AssertionError.
     void remove();
 }
 
