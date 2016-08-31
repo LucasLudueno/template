@@ -69,7 +69,7 @@ public class QueueTest {
     }
 
     @Test(expected = AssertionError.class)
-    // Test: Remove method should throw AssertionError when Queue is empty
+    // Test: Remove method should throws AssertionError when Queue is empty
     public void removeWhenQueueIsEmptyTest() {
         ItemQueue<Integer> queue = new ItemQueue<>();
         assert (queue.isEmpty());
@@ -77,7 +77,7 @@ public class QueueTest {
     }
 
     @Test(expected = AssertionError.class)
-    // Test: Top method should throw AssertionError when Queue is empty
+    // Test: Top method should throws AssertionError when Queue is empty
     public void topWhenQueueIsEmptyTest() {
         ItemQueue<Integer> queue = new ItemQueue<>();
         assert (queue.isEmpty());
