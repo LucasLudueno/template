@@ -12,8 +12,8 @@ class LinkedList<T> {
         return first.getSize();
     }
 
-    // Add item in the first position.
-    void addFirst(T item) {
+    // Add item in the last position.
+    void addLast(T item) {
         first.addLastNode(new LinkedListItemNode<>(item), null);
     }
 

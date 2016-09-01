@@ -17,7 +17,7 @@ class ItemQueue<T> implements Queue<T> {
     }
 
     public void add(T item) {
-        linkedList.addFirst(item);
+        linkedList.addLast(item);
     }
 
     public T top() throws AssertionError {
